@@ -19,7 +19,7 @@ function App() {
     // remove the read blog to bookmark
     console.log("remove blog to the bookmark", id);
     const remainingBookmarks = bookmarks.filter(bookmark => bookmark.id !== id);
-    setBookmarks(remainingBookmarks) 
+    setBookmarks(remainingBookmarks);
 
   }
 
